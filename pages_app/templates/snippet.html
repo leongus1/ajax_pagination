@@ -1,0 +1,29 @@
+<div id="pages">
+  <a href="" class="page_no" no="1"> 1 </a>
+  {% for i in pages %} | <a href="" class="page_no" no="{{i}}"> {{i}} </a>
+  {% endfor %}
+</div>
+<br /><br />
+
+<div id="table">
+  <table id="data-table" class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">first name</th>
+        <th scope="col">last name</th>
+        <th scope="col">registered datetime</th>
+        <th scope="col">email</th>
+      </tr>
+    </thead>
+    {% for user in users %}
+    <tr class="user-data">
+      <td>{{user.id}}</td>
+      <td>{{user.first_name}}</td>
+      <td>{{user.last_name}}</td>
+      <td>{{user.created_at}}</td>
+      <td>{{user.email}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>

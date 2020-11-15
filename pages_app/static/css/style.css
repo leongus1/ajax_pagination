@@ -1,0 +1,75 @@
+#canvas{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#register_area{
+    width: 45%;
+}
+
+#login_area{
+    width: 45%;
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#header-right{
+    margin: auto 5px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-div{
+    width: 40%;
+    /* border: 1px solid black; */
+}
+
+#right-div{
+    width: 45%;
+    /* border: 1px solid black; */
+    padding-left: 80px;
+    border-left: 5px dashed gray;
+}
+
+i{
+    font-size: x-small;
+}
+
+#container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+#content{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#overflow-list{
+    margin-top: 20px;
+    width: 60%;
+    height: 300px;
+    margin: auto 5% auto 35%;
+    overflow: scroll;
+    /* border: 3px solid black; */
+}
+
+.error{
+    color: red;
+}
+
+.quote-list{
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 3px solid gray;
+    width: 30%;
+}
